@@ -1,0 +1,93 @@
+ROOM:A-1341:office A-1341:An instructor's office that appears to have not been inhabited for a while.
+ROOM:A-1342:office A-1342:An instructor's office infested with clutter.
+ROOM:A-1343:office A-1343:An instructor's office that is now used to house International Studies materials.
+ROOM:A-1345a:telecom room:A large room filled with racks of routers and switches. Blinking lights and cables are everywhere.
+ROOM:A-1346:office A-1346:An oddly empty office with a great view of the large computer lab. A large desk occupies the center of the office.
+ROOM:A-1347:office A-1347:An oddly empty office with a great view of the large computer lab. A couple of desks and tables are located against the walls of the office.
+ROOM:A-1348:office A-1348:A tiny, narrow office, now abandoned, that is used to hold paper and other supplies.
+ROOM:A-1349:custodial closet:A tiny room with a sink and some cleaning supplies.
+ROOM:A-1366:office A-1366:An instructor's office that is unusually uncluttered. A few pieces of artwork enliven the room.
+ROOM:A-1367:office A-1367:An instructor's office that is packed everywhere with collapsing piles of stuff. A narrow path leads to a desk where someone still manages to get some work done.
+ROOM:A-1368:office A-1368:An instructor's office that is filled with computer parts. Perhaps this is where computers come to die.
+ROOM:A-1369:office A-1369:An office for adjunct instructors. Two desks are placed on opposite sides of the room.
+ROOM:A-1370:lab A-1370:An office systems lab. It has a copier, a receptionist's desk, a meeting/dining table, and a few other desks. This room is used to simulate various office situations.
+ROOM:A-1371:office A-1371:An abandoned instructor's office. A musty smell evokes visions of IT desperation.
+ROOM:A-1372:computer classroom A-1372:A classroom with many computers and Cisco networking equipment.
+ROOM:A-1374:computer classroom A-1374:A classroom with many computers, a blinking fluorescent light.
+ROOM:A-1375:computer classroom A-1375:A classroom with many computers and a low ceiling reminiscent of a cave.
+ROOM:A-1373:computer classroom A-1373:A classroom with many computers with removable drives and networking equipment.
+ROOM:west hall:the west hall:A long, carpeted hallway running north-south. The large computer lab is viewable to the east through windows.
+ROOM:west hall north:the west hall:A long, carpeted hallway running north-south. There are quite a few offices here. The hallway continues north, but locked doors prevent any attempt to continue in that direction.
+ROOM:west hall intersection:the west hall:A long, carpeted hallway running north-south.
+ROOM:west hall south:the west hall:A long, carpeted hallway running north-south. The exit doors to the south are locked.
+ROOM:east hall:the east hall:A long, carpeted hallway running north-south. The large computer lab is viewable to the west through windows.
+ROOM:east hall north:the east hall:A long, carpeted hallway running north-south. Offices and restrooms abound. The hallway continues to the north and northeast, but locked doors and an ominous dense fog prevent any attempts to go in those directions.
+ROOM:east hall intersection:the east hall:A long, carpeted hallway running north-south. Offices seem to be to the north.
+ROOM:east hall south:the east hall:A long, carpeted hallway running north-south. The exit doors to the south are locked.
+ROOM:mens restroom:a men's restroom:A men's restroom. The stench of urine and human waste sting your nostrils.
+ROOM:womens restroom:a women's restroom:A women's restroom. Classical music plays softly in the background as attendants wait to help in any way they can.
+ROOM:the open computer lab:a large open computer lab:A large room with many computers that are available to the public.
+ROOM:A-1350:computer classroom A-1350:A dreary classroom with many computers and a ragged instructor's desk up front
+ROOM:outside:the bright sun outside:The day is beautiful, warm, and dry. You have escaped the dungeon.
+PATH:w:mens restroom:east hall north
+PATH:w:womens restroom:east hall intersection
+PATH:w:A-1349:east hall intersection
+PATH:s:east hall north:east hall intersection
+PATH:nw:east hall north:A-1341
+PATH:w:east hall north:A-1342
+PATH:sw:east hall north:A-1343
+PATH:e:east hall north:mens restroom
+PATH:e:A-1341:east hall north
+PATH:e:A-1342:east hall north
+PATH:e:A-1343:east hall north
+PATH:e:A-1350:east hall south
+PATH:n:east hall intersection:east hall north
+PATH:ne:east hall intersection:womens restroom
+PATH:e:east hall intersection:A-1349
+PATH:s:east hall intersection:east hall
+PATH:w:east hall intersection:the open computer lab
+PATH:n:east hall:east hall intersection
+PATH:s:east hall:east hall south
+PATH:n:east hall south:east hall
+PATH:w:east hall south:A-1350
+PATH:e:the open computer lab:east hall intersection
+PATH:w:the open computer lab:west hall intersection
+PATH:ne:the open computer lab:A-1346
+PATH:nw:the open computer lab:A-1347
+PATH:n:the open computer lab:A-1345a
+PATH:s:the open computer lab:A-1348
+PATH:s:A-1345a:the open computer lab
+PATH:s:A-1346:the open computer lab
+PATH:s:A-1347:the open computer lab
+PATH:n:A-1348:the open computer lab
+PATH:s:west hall north:west hall intersection
+PATH:n:west hall intersection:west hall north
+PATH:e:west hall intersection:the open computer lab
+PATH:s:west hall intersection:west hall
+PATH:w:west hall intersection:A-1372
+PATH:nw:west hall intersection:A-1371
+PATH:ne:west hall intersection:A-1368
+PATH:nw:west hall north:A-1369
+PATH:ne:west hall north:A-1366
+PATH:e:west hall north:A-1367
+PATH:w:west hall north:A-1370
+PATH:w:A-1366:west hall north
+PATH:w:A-1367:west hall north
+PATH:w:A-1368:west hall intersection
+PATH:e:A-1369:west hall north
+PATH:e:A-1370:west hall north
+PATH:e:A-1371:west hall intersection
+PATH:e:A-1372:west hall intersection
+PATH:s:west hall:west hall south
+PATH:e:A-1373:west hall south
+PATH:e:A-1374:west hall south
+PATH:w:A-1375:west hall south
+PATH:e:west hall south:A-1375
+PATH:w:west hall south:A-1374
+PATH:nw:west hall south:A-1373
+PATH:n:west hall south:west hall
+PATH:n:west hall:west hall intersection
+ITEM:bike:A hybrid bike is leaning against a wall.:A-1342
+ITEM:instructor:A weathered old instructor is sleeping:A-1374
+ITEM:regalia:Regalia (a cap and gown) is hanging from a hook on the back of the door:A-1342
+INIT:the open computer lab
